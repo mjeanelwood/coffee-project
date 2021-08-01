@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Love</title>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>💕 Coffee Love 💕</h1>
+      <h2>It's All About The Coffee</h2>
+      <img src="images/coffee.jpg" alt="cup of coffee" />
+      <p>
+        For those who love it there's something about the aroma of a freshly
+        brewed cup of coffee that just says "Hello!". Whether you grind and brew
+        it yourself or go to the local coffee hang out, it has always been a
+        drink you can enjoy alone or with others. You can have it plain or
+        dressed up but no matter how you drink it, it's still......<strong
+          ><em>Coffee</em></strong
+        >. ☕
+      </p>
+      <a
+        href="https://en.wikipedia.org/wiki/History of coffee"
+        target="blank"
+        class="Discover"
+        >Discover the History of Coffee</a
+      >
+      <hr />
+      <button class="buy-button">Try A Cup</button>
+      <p class="footer">
+        <em>This page was coded by M J Elwood</em>
+      </p>
+    </div>
+    <script>
+      function buy() {
+        let name = prompt("What is your first name?");
+        let coffee = prompt("How do you like your coffee?");
+        name = name.trim();
+
+        if (name.length > 0 && coffee.length > 0) {
+          alert(
+            "Great choice, " +
+              name +
+              "!" +
+              " " +
+              "We'll get a cup started for you!"
+          );
+        } else {
+          alert("Oops! Please check your entry and try again.  Thank you!");
+        }
+      }
+      let buyButton = document.querySelector(".buy-button");
+      buyButton.addEventListener("click", buy);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+body {
+  background: linear-gradient(180deg, #fdfcfb 0%, #e2d1c3 100%);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #3d3439;
+  font-size: 60px;
+  padding: 5px;
+  margin: 25px;
+}
+h2 {
+  text-align: center;
+  color: #3d3439;
+  font-size: 25px;
+  border: 1px solid #3d3439;
+  border-radius: 5px;
+  padding: 5px;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  max-width: 100%;
+}
+p {
+  line-height: 1.25;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: #3d3439;
+  font-size: 18px;
+}
+button {
+  display: block;
+  padding: 10px;
+  margin: 20px auto;
+  background: #3d3439;
+  color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 7px 7px 7px rgb(0 0 0 / 30%);
+  transition: all 250ms ease-in-out;
+}
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.Discover {
+  color: #3d3439;
+  text-decoration: none;
+  font-size: 15px;
+}
+.Discover:hover {
+  text-decoration: underline;
+}
+button:hover {
+  background: #fffbef;
+  color: #3d3439;
+}
+.footer {
+  text-align: center;
+  font-size: 13px;
+}
